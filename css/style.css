@@ -17,9 +17,11 @@
 .center{
     width: 1200px;
     margin: 0 auto;
+    padding: 0 2%;
 }
 
 .header{
+    min-width: 1200px;
     width: 100%;
     height: 60px;
     background-color: #212343;
@@ -31,6 +33,7 @@
 }
 
 .container-banner{
+    min-width: 1200px;
     width: 100%;
     height: 557px;
     background-image: url('../images/header_bg.png');
@@ -109,7 +112,7 @@
 
 .container-list{
     padding: 30px;
-    margin-top: 40px;
+    margin-top: 100px;
     float: left;
     width: 619px;
     height: 270px;
@@ -128,6 +131,7 @@
 }
 
 .container-2{
+    min-width: 1200px;
     padding: 40px 0;
     background-color: #ddd;
     text-align: center;
@@ -156,4 +160,44 @@
     height: 40px;
     background-image: url(../images/arrow.png);
     background-size: 100% 100%;
+}
+
+.section1{
+    min-width: 1200px;
+    padding:90px 0 ;
+
+}
+
+.section1 h2 {
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px;
+
+}
+
+.container-section{
+    text-align: center;
+    
+}
+
+.container-sigle{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+
+}
+
+.container-sigle p{
+    display: inline-block;
+    text-align: justify;
+    padding: 10px 25px;
+
+}
+
+.container-sigle img {
+    width: 70px;
 }
