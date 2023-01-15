@@ -1,4 +1,4 @@
-# Projeto Prático 1
+# Projeto Prático 1 100% Responsivo
 Curso DankiCode Front-End-Completo
 -----------------------------------
 
