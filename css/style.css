@@ -52,7 +52,7 @@
 }
 
 .form{
-    padding: 10px;
+    padding: 25px;
     width: 400px;
     height: calc(100% + 30px);
     float: right;
@@ -93,6 +93,12 @@
     height: 55px;
     border: 1px solid #ccc;
     margin-top: 8px;
+    padding: 8px 10px 8px 10px;
+
+}
+
+.input-container input[type=text]:focus{
+    outline: 0;
 }
 
 .form .input-submit-container{
@@ -267,7 +273,7 @@
     }
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 975px) {
     .container-2{
         padding-right: 4%;
         padding-left: 4%;
